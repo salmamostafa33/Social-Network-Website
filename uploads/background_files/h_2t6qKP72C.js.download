@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["nuRkT"]); }
+
+__d("XUISubNavigationAccessoryClearableBadge",["Event","SubscriptionsHandler","XUISubNavigationLoader"],(function a(b,c,d,e,f,g){"use strict";__p&&__p();var h=null,i={init:function j(k,l){if(!h){h=new(c("SubscriptionsHandler"))();h.addSubscriptions(c("XUISubNavigationLoader").onLeave(function(){h&&h.release();h=null}))}h.addSubscriptions(c("Event").listen(k,"click",function(){return l.setCount(0)}))}};f.exports=i}),null);
